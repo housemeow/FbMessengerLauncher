@@ -1,0 +1,19 @@
+/* hide side bar */
+._20bp > ._4_j5 {
+	display: none !important;
+}
+
+/* default min width */
+._4sp8 {
+	min-width: 0 !important;
+}
+
+/* show setting icon */
+._4kzu {
+	display: block !important;
+}
+
+/* hide side bar info icon */
+._fl2 > :last-child {
+	display: none !important;
+}

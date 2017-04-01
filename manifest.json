@@ -1,0 +1,32 @@
+{
+    "name": "FB Messenger Launcher",
+    "description": "Launch fb messenger use popup window",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "https://*/",
+        "system.display",
+        "webNavigation",
+        "tts"
+    ],
+    "icons": {
+    	"16": "icon16.png",
+    	"48": "icon48.png",
+    	"128": "icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.messenger.com/*"],
+            "css": ["style.css"]
+        }
+    ],
+    "background": {
+        "matches": ["https://www.messenger.com/*"],
+        "scripts": ["launcher.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Launch"
+    },
+    "manifest_version": 2
+}
