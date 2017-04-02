@@ -18,20 +18,23 @@
 	display: none !important;
 }
 
-
 /* function buttons */
-.hide-friend-list._1enh {
+.hide-friend-list._4sp8 ._1enh {
 	position: fixed;
+	left: -3px;
 }
 
 /* disable function buttons bottom line */
-.hide-friend-list._1enh ._36ic {
+.hide-friend-list._4sp8 ._36ic {
 	border-bottom: none;
 }
 
 /* friend list */
-.hide-friend-list._1enh ._2xhi {
+.hide-friend-list._4sp8 ._2xhi {
 	display: none;
 }
 
-
+.hide-friend-list ._5742 {
+	width: calc(100% - 74px);
+    left: 74px;
+}
