@@ -30,7 +30,7 @@ function previousChat() {
 }
 
 function toggleFriendList() {
-	// TODO
+	document.querySelector('._1enh').classList.toggle('hide-friend-list');
 }
 
 var commands = {

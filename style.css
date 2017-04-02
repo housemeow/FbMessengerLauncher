@@ -17,3 +17,21 @@
 ._fl2 > :last-child {
 	display: none !important;
 }
+
+
+/* function buttons */
+.hide-friend-list._1enh {
+	position: fixed;
+}
+
+/* disable function buttons bottom line */
+.hide-friend-list._1enh ._36ic {
+	border-bottom: none;
+}
+
+/* friend list */
+.hide-friend-list._1enh ._2xhi {
+	display: none;
+}
+
+
