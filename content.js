@@ -4,7 +4,7 @@ function getChats() {
 }
 
 function getCurrentIndex() {
-    selected = document.querySelector('ul[aria-label="Conversation List"] > li[aria-relevant="additions text"]')
+    selected = document.querySelector('ul[aria-label="Conversation List"] > li[aria-relevant="additions text"]._1ht2')
     return getChats().indexOf(selected)
 }
 
