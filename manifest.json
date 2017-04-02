@@ -7,8 +7,29 @@
         "https://*/",
         "system.display",
         "webNavigation",
-        "tts"
+        "tts",
+        "commands"
     ],
+    "commands": {
+        "next-chat": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+Up"
+            },
+            "description": "Chat with previous"
+        },
+        "previous-chat": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+Down"
+            },
+            "description": "Chat with next friend"
+        },
+        "toggle-friend-list": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+Left"
+            },
+            "description": "Toggle friend list"
+        }
+    },
     "icons": {
     	"16": "icon16.png",
     	"48": "icon48.png",
@@ -17,6 +38,7 @@
     "content_scripts": [
         {
             "matches": ["https://www.messenger.com/*"],
+            "js": ["content.js"],
             "css": ["style.css"]
         }
     ],
