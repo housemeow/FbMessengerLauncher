@@ -37,3 +37,27 @@
 .hide-friend-list ._5743 {
 	transform: translateX(37px);
 }
+
+._53j5 {
+	width: auto !important;
+	height: auto !important;
+}
+
+/* video match window width */
+video {
+	width: 100% !important;
+}
+
+/* video message match window width */
+._3058._15gf._3duc {
+	width: 100% !important;
+}
+
+._2f5n._4br2._29ew._3dug.__6j._43kk > a[role="button"]{
+	width: 100% !important;
+}
+
+/* hide message emotion */
+._40fu ._5zvq {
+	display: none;
+}
